@@ -65,17 +65,18 @@ h1{
   font-weight: 700;
 }
 
- .search .search-bar{
+ .search .search-bar {
   position: fixed;
   display: block;
-  padding:15px;
-  background-color: rgb(248, 244, 239 , 0.8);
+  padding: 15px;
+  background-color: rgba(248, 244, 239, 0.8);
   border: none;
   border-radius: 12px;
-  margin:-25px;
-  left: 45%;
-
- }
+  width: 300px;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
 
